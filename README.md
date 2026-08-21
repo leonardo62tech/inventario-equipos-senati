@@ -94,3 +94,11 @@ pnpm dev
 
 El repositorio ya incluye una estructura para trabajar desde `main` hacia `development`, con ramas por funcionalidad. Consulta [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md) para publicar el repositorio y crear los dos Pull Requests requeridos por la prueba.
 
+## Verificación
+
+Con Docker Compose activo, la aplicación queda disponible en:
+
+- Frontend: http://localhost:5173
+- Swagger / OpenAPI: http://localhost:3000/api/docs
+
+La documentación Swagger permite consultar y probar los endpoints de la API de inventario.
